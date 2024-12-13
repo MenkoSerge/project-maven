@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>18.0.2</version>
+            <version>18</version>
         </dependency>
         <dependency>
             <groupId>com.javarush</groupId>
@@ -83,7 +83,7 @@
                 <version>3.3.0</version>
                 <configuration>
                     <outputDirectory>${project.build.directory}/dependency</outputDirectory>
-                    <IncludeScope>compile</IncludeScope>
+                    <includeScope>compile</includeScope>
                 </configuration>
                 <executions>
                     <execution>
